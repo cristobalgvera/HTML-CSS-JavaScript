@@ -1,0 +1,124 @@
+body {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    /* color de fondo gradiente de https://cssgradient.io/*/
+}
+
+#cabecera2 {
+    width: 100%;
+    /*ancho del 100%*/
+    margin-top: 10%;
+    /*margen desde arriba hacia abajo del 3%*/
+    margin-bottom: 15%;
+    /*margen desde abajo haci arriba del 3%*/
+}
+
+#menu1 {
+    float: right;
+    /* Alinea el id menu1 hacia la derecha*/
+}
+
+#menu1 li {
+    display: inline;
+    /*Deja en forma horizontal todas los list item*/
+    font-size: 2vw;
+    /*Asigna un tamaño del 3% de la anchura de la ventana grafica vh */
+    /*font-size: 5vh;  Asigna un tamaño del 5% de el alto de la ventana grafica vh */
+    font-family: fantasy;
+    /*define el tipo de letra "tipo fantasy" */
+    text-decoration: none;
+    /*define la decoracion del texto; none limpia si tiene decoración previa y lo deja sin decoración*/
+    text-decoration-color: dodgerblue;
+    /*define la decoracion del texto;*/
+}
+
+#menu1 li a {
+    text-decoration: none;
+    color: dodgerblue;
+    padding: 2mm;
+    /*Separación de los list item 2mm*/
+}
+
+#menu1 li a:visited {
+    /*transition: none;*/
+    /*text-decoration: none;*/
+    color: red;
+}
+
+#menu1 li a:hover
+/*pasar mouse */
+
+{
+    color: orangered;
+    /*asigan color a un texto*/
+    transition: all .5s ease-in-out;
+    /*transición de un color a otro*/
+    text-decoration: none;
+}
+
+#menu1 li a:active
+/*mantener click presionado*/
+
+{
+    transition: none;
+    text-decoration: none;
+    color: lawngreen;
+}
+
+
+/*****************************************************/
+
+#menu2 {
+    float: left;
+    /* Alinea el id menu2 hacia la izquierda*/
+}
+
+#menu2 li {
+    display: inline;
+    /*Deja en forma horizontal todas los list item*/
+    font-size: 2vw;
+    /*Asigna un tamaño del 2% de la anchura de la ventana grafica vh */
+    /*font-size: 5vh;  Asigna un tamaño del 5% de el alto de la ventana grafica vh */
+    font-family: fantasy;
+    /*define el tipo de letra "tipo fantasy" */
+    text-decoration: none;
+    /*define la decoracion del texto; none limpia si tiene decoración previa y lo deja sin decoración*/
+    text-decoration-color: dodgerblue;
+    /*define la decoracion del texto;*/
+}
+
+#menu2 li a {
+    text-decoration: none;
+    color: dodgerblue;
+    padding: 2mm;
+}
+
+#menu2 li a:visited {
+    /*transition: none;*/
+    /*text-decoration: none;*/
+    color: red;
+}
+
+#menu2 li a:hover
+/*pasar mouse */
+
+{
+    color: green;
+    transition: all .5s ease-in-out;
+    /*la transicion del color anterior por medio segundo al color green*/
+    text-decoration: none;
+    /*Decoracion del texo sin decoración*/
+}
+
+#menu2 li a:active
+/*mantener click presionado*/
+
+{
+    transition: none;
+    text-decoration: none;
+    color: lawngreen;
+}
+
+#auto01 {
+    border: cadetblue 10px solid
+}

@@ -1,0 +1,87 @@
+:root {
+  --aColor: #0B3C49;
+  --bColor: white;
+  --cColor: gray;
+  --lineSize: 1.5px solid var(--bColor);
+}
+
+body {
+  margin: 0px;
+}
+
+.lineDiv {
+  margin-top: 20px;
+  width: 100%;
+  border-top: var(--lineSize);
+  border-bottom: var(--lineSize);
+}
+
+/* header */
+.newspaperTitle {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: var(--bColor);
+  margin: 0px;
+  margin-left: 45px;
+  text-decoration: none;
+}
+
+.navigationMenu {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: var(--bColor);
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.verticalDiv {
+  border-left: var(--lineSize);
+  margin: 50px;
+  display: inline;
+}
+
+.headerDiv {
+  background-color: var(--aColor);
+  padding-top: 20px;
+  padding-bottom: .5px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* sections */
+/* #news {
+  border: 10px solid var(--aColor);
+} */
+.newsImage {
+  /* text-align: center; */
+  font-family: sans-serif;
+}
+
+.relevant {
+  border-bottom: 1.5px solid var(--cColor);
+}
+
+.description {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 35px;
+}
+
+.othernews {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+
+.imageDiv {
+  background-image: url('https://www.canva.com/es_mx/aprende/wp-content/uploads/sites/11/2018/12/how-to-stand-out-with-a-brilliant-facebook-cover-photo.jpg');
+  height: 150px;
+  padding: 50px;
+  text-align: center;
+}
+
+.footerDiv {
+  background-color: var(--cColor);
+  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+}

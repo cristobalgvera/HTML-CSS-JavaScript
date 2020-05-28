@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+  * {
+    color: white;
+  }
+
+  .contenedor {
+    width: 600px;
+    height: 700px;
+    background-color: white;
+
+
+
+  }
+
+  form {
+    padding: 30px;
+    width: 350px;
+    height: 360px;
+    background-color: #262B4D;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+  }
+
+  .cajas {
+    width: 300px;
+    margin: 5px;
+    background-color: #262B4D;
+    border: solid 1px #35439D;
+    border-radius: 4px;
+    padding: 8px;
+
+  }
+
+  .tituloform {
+    text-align: left;
+    padding-left: 18px;
+    font-size: 15px;
+    color: white;
+    font-family: roboto;
+  }
+
+  p {
+    text-align: center;
+    color: white;
+  }
+
+  .boton {
+    width: 328px;
+    padding: 8px;
+    color: black;
+    margin-bottom: 20px;
+
+  }
+</style>
+
+<body>
+  <div class="contenedor">
+    <form action="index.html">
+      <h3 class="tituloform">Formulario de Registro</h3>
+      <input class="cajas" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+      <input class="cajas" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+      <input class="cajas" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+      <input class="cajas" type="password" name="password" id="password" placeholder="Ingrese su contraseña">
+      <p>estoy de acuerdo <a href="www.google.cl">Terminos y condiciones</a></p>
+      <input class="boton" type="submit" value="registrar">
+      <a href="www.google.cl">¿Ya tengo una cuenta?</a>
+    </form>
+  </div>
+</body>
+
+</html>

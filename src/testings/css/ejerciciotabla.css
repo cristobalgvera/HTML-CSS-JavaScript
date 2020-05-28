@@ -1,0 +1,8 @@
+#tablaEjemplo {
+  border: 1px solid black;
+  margin: auto;
+}
+
+#tablaEjemplo td, #tablaEjemplo th {
+  border: 1px solid black;
+}

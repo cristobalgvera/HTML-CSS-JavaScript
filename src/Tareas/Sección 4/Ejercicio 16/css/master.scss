@@ -1,0 +1,25 @@
+.encabezado {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.datos-personales {
+  width: 100%;
+  background-color: pink;
+  &__foto img{
+    width: 20%;
+  }
+}
+
+.datos-académicos{
+  background-color: green;
+}
+
+.referencias{
+  background-color: brown;
+}
+
+.datos-laborales{
+  background-color: blue;
+}

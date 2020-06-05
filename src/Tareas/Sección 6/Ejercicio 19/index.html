@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/master.css">
+  <title>Ejercicio 19</title>
+</head>
+
+<body>
+  <center>
+    <h1>Calculadora básica</h1>
+    <form class="f1" name="form1" action="index.html" method="post">
+      <input type="text" name="cajatexto"> <br>
+      <input type="button" onclick="escribir('1')" value="1">
+      <input type="button" onclick="escribir('2')" value="2">
+      <input type="button" onclick="escribir('3')" value="3">
+      <input type="button" onclick="escribir('+')" value="+"> <br>
+      <input type="button" onclick="escribir('4')" value="4">
+      <input type="button" onclick="escribir('5')" value="5">
+      <input type="button" onclick="escribir('6')" value="6">
+      <input type="button" onclick="escribir('-')" value="-"> <br>
+      <input type="button" onclick="escribir('7')" value="7">
+      <input type="button" onclick="escribir('8')" value="8">
+      <input type="button" onclick="escribir('9')" value="9">
+      <input type="button" onclick="escribir('*')" value="*"> <br>
+      <input type="button" onclick="escribir('.')" value=".">
+      <input type="button" onclick="escribir('0')" value="0">
+      <input type="button" onclick="document.form1.reset()" value="C">
+      <input type="button" onclick="escribir('/')" value="/"> <br>
+      <input type="button" onclick="calcular()" value="=">
+    </form>
+  </center>
+</body>
+<script src="./js/master.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

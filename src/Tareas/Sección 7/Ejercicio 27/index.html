@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/master.css">
+  <title>Ejercicio 25</title>
+</head>
+
+<body>
+  <header style="text-align: center">
+    <h1>Formulario de inscripción a algo</h1>
+  </header>
+  <form id="formulario" onsubmit="calcularEdad()">
+    <input type="text" id="nombre" name="nombre" maxlength="30" required placeholder="(*) Nombre: Juan">
+    <input type="text" id="apellido" name="apellido" maxlength="50" required placeholder="(*) Apellido: Pérez">
+    <label for="fechaNacimiento">(*) Fecha de nacimiento:
+      <input required type="date" id="fechaNacimiento" name="fechaNacimiento">
+    </label>
+    <input type="tel" id="telefono" minlength="7" maxlength="12" name="telefono" placeholder="Teléfono: 56912345678">
+    <label for="nivelEducacional">Nivel educacional:
+      <select id="nivelEducacional" name="nivelEducacional">
+        <option value="0">1° Básico</option>
+        <option value="1">2° Básico</option>
+        <option value="2">3° Básico</option>
+        <option value="3">4° Básico</option>
+        <option value="4">5° Básico</option>
+        <option value="5">6° Básico</option>
+        <option value="6">7° Básico</option>
+        <option value="7">8° Básico</option>
+        <option value="8">1° Medio</option>
+        <option value="9">2° Medio</option>
+        <option value="10">3° Medio</option>
+        <option value="11">4° Medio</option>
+      </select>
+    </label>
+    <input type="text" id="direccion" name="direccion" required maxlength="100" placeholder="(*) Dirección: Av. Siempre Viva 332">
+    <input type="text" id="ciudad" name="ciudad" maxlength="30" required placeholder="(*) Ciudad: Temuco">
+    <label for="region">Región:
+      <select id="region" name="region">
+        <option value="0">Tarapacá</option>
+        <option value="1">Antofagasta</option>
+        <option value="2">Atacama</option>
+        <option value="3">Araica y Parinacota</option>
+        <option value="4">Aysén</option>
+        <option value="5">Bío-bío</option>
+        <option value="6">Coquimbo</option>
+        <option value="7">La Araucanía</option>
+        <option value="8">Los Lagos</option>
+        <option value="9">Los Ríos</option>
+        <option value="10">Magallanes</option>
+        <option value="11">Maule</option>
+        <option value="12">Metropolitana de Santiago</option>
+        <option value="13">Ñuble</option>
+        <option value="14">O'Higgins</option>
+        <option value="15">Valparaiso</option>
+      </select>
+    </label>
+    <input type="submit" name="" value="Enviar">
+  </form>
+</body>
+<script src="./js/master.js" type="text/javascript"></script>
+
+</html>

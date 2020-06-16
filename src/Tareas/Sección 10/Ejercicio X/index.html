@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/master.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/select/1.3.1/css/select.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/colreorder/1.5.2/css/colReorder.dataTables.min.css">
+  <link rel="stylesheet" href="https://editor.datatables.net/extensions/Editor/css/editor.dataTables.min.css">
+  <title>Ejercicio 43</title>
+</head>
+
+<body>
+  <header>
+    <h1>Registro de nombres</h1>
+  </header>
+
+  <form id="agregador">
+    <label style="font-size: 20px; font-weight: bold">Agregar nuevo registro</label>
+    <input required type="text" name="nombre" maxlength="30" placeholder="Nombre">
+    <input required type="text" name="apellido" maxlength="50" placeholder="Apellido">
+    <input type="email" name="correo" maxlength="50" placeholder="Correo electrónico">
+    <input type="number" min="0" max="150" name="edad" placeholder="Edad">
+    <div style="width: 100%">
+      <label style="width: 15%" for="celular">+56 9</label>
+      <input style="width: 85%" type="tel" name="celular" placeholder="Número telefónico">
+    </div>
+    <input id="agregar" style="height: 50px; width: 50%; margin-top: 20px" type="button" name="agregar" value="Agregar">
+  </form>
+
+  <table id="registros" class="display" style="width: 100%">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Correo electrónico</th>
+        <th>Edad</th>
+        <th>Teléfono</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Cristóbal</td>
+        <td>Cristóbal</td>
+        <td>Cristóbal</td>
+        <td>Cristóbal</td>
+        <td>Cristóbal</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Correo electrónico</th>
+        <th>Edad</th>
+        <th>Teléfono</th>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" charset="utf-8"></script>
+<script src="https://editor.datatables.net/extensions/Editor/js/dataTables.editor.min.js" charset="utf-8"></script>
+<script src="https://cdn.datatables.net/select/1.3.1/js/dataTables.select.min.js" charset="utf-8"></script>
+<script src="https://cdn.datatables.net/colreorder/1.5.2/js/dataTables.colReorder.min.js" charset="utf-8"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js" charset="utf-8"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.print.min.js" charset="utf-8"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.html5.min.js" charset="utf-8"></script>
+
+<script src="./js/master.js"></script>
+
+</html>

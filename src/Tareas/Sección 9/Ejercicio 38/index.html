@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/master.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jcanvas/21.0.1/min/jcanvas.min.js" charset="utf-8"></script>
+  <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js" charset="utf-8"></script>
+  <title>Ejercicio 37</title>
+</head>
+
+<body>
+  <form id="formulario">
+    <label>
+      <h1>Formulario</h1>
+    </label>
+    <input type="text" maxlength="25" placeholder="(*) Nombre del artículo" required>
+    <input type="text" maxlength="30" placeholder="(*) Marca" required>
+    <input type="text" minlength="5" maxlength="20" placeholder="Modelo">
+    <input type="number" min="1" max="1000" placeholder="(*) Stock" required>
+    <label for="state">
+      <label>Estado</label>
+      <select name="state">
+        <option value="1">Bueno</option>
+        <option value="0">Regular</option>
+        <option value="-1">Malo</option>
+      </select>
+    </label>
+    <input id="clr" name="clr" type="text" maxlength="20" placeholder="Color">
+    <input type="submit" name="sbt" value="Ingresar">
+  </form>
+</body>
+
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+<script src="./js/master.js"></script>
+
+</html>
